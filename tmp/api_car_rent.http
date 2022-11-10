@@ -1,0 +1,25 @@
+GET http://car-rent.loc/api/user/3
+Accept: application/json
+Authorization: Bearer a4ergwe7r4f68w47ergwa89wa47egr8wa7egr48afasdbv45456sa146sa514fvs
+
+###
+
+GET http://car-rent.loc/api/cars/1
+Accept: application/json
+Authorization: Bearer a4ergwe7r4f68w47ergwa89wa47egr8wa7egr48afasdbv45456sa146sa514fvs
+
+###
+
+POST http://car-rent.loc/api/user/1
+Content-Type: application/x-www-form-urlencoded
+
+api-token=a4ergwe7r4f68w47ergwa89wa47egr8wa7egr48afasdbv45456sa146sa514fvs
+
+###
+
+POST http://car-rent.loc/api/rentCar/4/3
+Content-Type: application/x-www-form-urlencoded
+
+api-token=a4ergwe7r4f68w47ergwa89wa47egr8wa7egr48afasdbv45456sa146sa514fvs
+
+###
